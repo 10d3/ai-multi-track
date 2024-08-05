@@ -13,7 +13,7 @@ import { TTS } from "@/lib/tts/text-to-speech";
 import { transcreateText } from "@/lib/transcreate/transcreation";
 
 export default async function Home() {
-  // const test = await syncPlans();
+  await syncPlans();
   // console.log(test)
   // const result = await transcribe();
   // console.log(result);
